@@ -1,0 +1,7 @@
+com/firsttry/loginsystem/WELCOME.java
+ com.firsttry.loginsystem.WELCOME
+com/firsttry/loginsystem/BuildConfig.java
+ com.firsttry.loginsystem.BuildConfig
+com/firsttry/loginsystem/MainActivity.java
+ com.firsttry.loginsystem.MainActivity
+ com.firsttry.loginsystem.MainActivity$1

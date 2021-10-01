@@ -14,7 +14,6 @@ public class WELCOME extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
         displayEmail= findViewById(R.id.displayEmail);
         String email = getIntent().getStringExtra("email");
-        String password = getIntent().getStringExtra("password");
         displayEmail.setText(email);
     }
 }

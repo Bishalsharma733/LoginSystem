@@ -37,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
             else{
                 Intent intent = new Intent(MainActivity.this,WELCOME.class);
                 intent.putExtra("email",userEmail);
-
+                 this.sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(Email, userEmail);
+                editor.apply();
                 SharedPreferences.Editor editor = sharedpreferences.edit();
                 editor.putString(Email, userEmail);
                 editor.commit();
